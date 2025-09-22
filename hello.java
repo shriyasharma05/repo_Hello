@@ -1,4 +1,4 @@
-public class javass4 {
+public class hello {
     public static boolean javass4(int[] arr, int target) {
         int n = arr.length;
         boolean[][] dp = new boolean[n + 1][target + 1];
@@ -27,3 +27,4 @@ public class javass4 {
         System.out.println("Subset with given sum exists: " + result);
     }
 }
+
